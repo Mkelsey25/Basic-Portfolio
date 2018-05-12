@@ -28,7 +28,7 @@ nav {
     color: #777777;
 }
 .aboutMe {
-    height: 350px; 
+    height: 600px; 
     width: 960px;
     background: #ffffff; 
         margin: 0 auto;
@@ -38,12 +38,16 @@ h1 {
     font-family: 'Georgia', 'Times', 'Times New Roman', serif;
     margin-left: 5px;
 }
+.boxes { 
+    width: 50%;
+}
 img {
     float: left;
     margin-top: 18px;
-    margin-right: 10px; 
-    margin-bottom: 10px;
-}
+    margin-right: 20px; 
+    margin-bottom: 20px;
+    margin-left: 20px;
+    }
 article{
     color: #777777; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -66,9 +70,9 @@ footer {
     border-style: solid;
     border-color: #4aaaa5; 
     border-width: 5px 0px 0px 0px;
-    margin-top: 357px;
+    margin-top: 400px;
     margin-left: 0px;
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
@@ -76,10 +80,50 @@ footer {
     width: 100%;
 }
 a {
-    text-decoration: none;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    }
-
-
-    
+text-decoration: none;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+color: #777777;
+}
+p {
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 60px 10px 68px;
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: center;
+}
+.rpgText {
+position: absolute; 
+padding: 10px 59px 10px 58px;
+margin-top: 100px; 
+margin-left: 250px;
+text-align: center;
+}
+.triviaGameText {
+    position: absolute; 
+padding: 10px 60px 10px 50px;
+margin-top: 280px; 
+margin-left: 20px;
+text-align: center;
+}
+.rutgersText
+{
+    position: absolute; 
+    padding: 10px 39px 10px 20px; 
+    margin-top: 280px;
+    margin-left: 250px; 
+    text-align: center;
+}
+.rpsText {
+    position: absolute;
+    padding: 10px 40px 10px 20px; 
+    margin-top: 460px; 
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+hr {
+    color: #dddddd;
+    width: 900px;
+}
